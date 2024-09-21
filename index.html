@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeLiveWeather</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Météo 🌤️</h1>
+
+      <div class="search-box">
+        <input type="text" id="city-input" placeholder="Entrez une ville..." />
+        <button id="search-btn">Rechercher</button>
+      </div>
+
+      <div id="weather">
+        <div class="weather-info">
+          <h2 id="city-name">Ville</h2>
+          <p id="temperature">Température actuelle: --°C</p>
+          <p id="description">Max: --°C | Min: --°C</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
