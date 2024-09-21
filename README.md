@@ -31,14 +31,14 @@ To run this project locally, follow the instructions below:
    - Go to the API section and request an API key.
    - Once you receive your API key, store it safely.
 
-3. Store your API key:
+3. **Store your API key** :
 
    - Add your API key to the file as shown below:
      ```javascript
      const apiKey = "YOUR_API_KEY";
      ```
 
-4. Open the project: You can simply open the index.html file in your browser to run the app locally.
+4. **Open the project** : You can simply open the index.html file in your browser to run the app locally.
 
 ### Usage
 
